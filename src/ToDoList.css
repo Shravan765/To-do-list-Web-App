@@ -1,0 +1,48 @@
+#TaskBox{
+    margin-top:100px;
+    color:white;
+    text-align: center;
+}
+
+#TaskInput{
+    border-width: 0px;
+    background-color: rgb(149, 149, 149);
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 5vh;
+    width: 50vh;
+    font-size: x-large;
+    text-align: center;
+}
+#TaskInput::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+#SubmitButton{
+    color: rgb(0, 255, 0);
+    background-color: blue;
+    border-width: 0px;
+    height: 40px;
+    width: 160px;
+    font-size: 2em;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.text{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(238, 119, 15);
+    font-size: 2em;
+    margin-right: 5px;
+    flex: 1;
+}
+
+.taskButton{
+    border-width: 0px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.li{
+    list-style-type: none;
+}
